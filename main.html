@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donate Now</title>
+    <!-- Add Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet" />
+  </head>
+  <body class="bg-gray-100">
+    <header class="bg-blue-500 text-white">
+      <div class="container mx-auto flex items-center justify-between py-4 px-6">
+        <h1 class="text-2xl font-bold">Donate Now</h1>
+        <button class="rounded-full bg-white py-2 px-4 text-blue-500">Sign In</button>
+      </div>
+    </header>
+    <main class="container mx-auto py-6 px-6">
+      <div class="-mx-4 flex flex-wrap">
+        <div class="mb-4 w-full px-4 md:w-1/2">
+          <img src="https://th.bing.com/th/id/OIP.4TiVhEmgOk9nYF8QTwNMtAHaE8?w=252&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Donation image" class="h-full w-full object-cover" />
+        </div>
+        <div class="mb-4 w-full px-4 md:w-1/2">
+          <h2 class="mb-2 text-xl font-bold">Make a Donation</h2>
+          <p class="mb-4 text-gray-700">Your donation can make a big difference in the lives of those in need. Choose an amount below and make a difference today.</p>
+          <form action="" method="post">
+            <div class="mb-4">
+              <label for="amount" class="mb-2 block font-bold text-gray-700">Amount:</label>
+              <input type="number" name="amount" id="amount" class="focus:shadow-outline w-full appearance-none rounded border py-2 px-3 leading-tight text-gray-700 shadow focus:outline-none" placeholder="Enter amount" />
+            </div>
+            <div class="mb-4">
+              <label for="name" class="mb-2 block font-bold text-gray-700">Name:</label>
+              <input type="text" name="name" id="name" class="focus:shadow-outline w-full appearance-none rounded border py-2 px-3 leading-tight text-gray-700 shadow focus:outline-none" placeholder="Enter your name" />
+            </div>
+            <div class="mb-4">
+              <label for="email" class="mb-2 block font-bold text-gray-700">Email:</label>
+              <input type="email" name="email" id="email" class="focus:shadow-outline w-full appearance-none rounded border py-2 px-3 leading-tight text-gray-700 shadow focus:outline-none" placeholder="Enter your email" />
+            </div>
+            <div class="mb-4"><a href="https://lpulive.lpu.in/login?space=lpu-demo1"<button class="rounded bg-blue-500 py-2 px-4 font-bold text-white hover:bg-blue-700">Donate Now</button></a></div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-gray-300 py-4">
+      <div class="container mx-auto px-6">
+        <p class="text-gray-700">© 2023 Donate Now. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
